@@ -1,0 +1,74 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: rgb(128,128,128);
+    background: -moz-linear-gradient(184deg, rgba(128,128,128,1) 0%, rgba(27,81,131,1) 100%);
+    background: -webkit-linear-gradient(184deg, rgba(128,128,128,1) 0%, rgba(27,81,131,1) 100%);
+    background: linear-gradient(184deg, rgba(128,128,128,1) 0%, rgba(27,81,131,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808080",endColorstr="#1b5183",GradientType=1);
+}
+
+.head {
+    margin-top: 80px;
+    color: white;
+    filter: drop-shadow(5px 5px 4px #313131);
+}
+
+.head p {
+    font-size: 3rem;
+}
+
+.gallery {
+    display: flex;
+    padding: 50px;
+    
+}
+
+.images {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 500px;
+    height: 600px;
+}
+
+.images img {
+    border-radius: 7px;
+}
+
+
+.images h2 {
+    color: white;
+    filter: drop-shadow(5px 5px 4px #313131);
+}
+
+.images p {
+    color: white;
+    padding: 25px 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.btn-cust {
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(49, 92, 49);
+    
+}
+
+.btn-cust:hover {
+    background-color: rgb(110, 33, 33);
+    color: white;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
